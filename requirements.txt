@@ -1,0 +1,5 @@
+Python 3.9.7
+
+HTTP library: Requests, Beauty soup
+import requests
+from bs4 import BeautifulSoup
