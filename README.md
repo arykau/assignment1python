@@ -3,4 +3,4 @@
 
 -Usage: import requests from bs4 import BeautifulSoup
 
--Examples: Enter how many currencies I should show: 5 bitcoin ethereum tether cardano binancecoin
+
