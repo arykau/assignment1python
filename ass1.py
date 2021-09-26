@@ -1,0 +1,16 @@
+from bs4 import BeautifulSoup
+import requests
+
+url = 'https://www.coingecko.com/en'
+page = requests.get(url)
+print(page.status_code)
+
+filteredNews = []
+allNews = []
+soup = BeautifulSoup(page.text, "html.parser")
+
+allNews = soup.findAll('a', class_='d-lg-none font-bold')
+
+
+for data in allNews:
+    print(data)
